@@ -1,0 +1,104 @@
+
+
+.Section2 .container {
+  background-size: 100vw 100vh;
+  background-image: url(https://i.pinimg.com/originals/67/18/22/671822c2f63dd5f65d8fd15c9710420b.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  text-align: center;
+}
+
+.Section2 .container .toplogo {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  height: 70px;
+  width: 70px;
+}
+
+.Section2 .container .heading{
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.Section2 .container .boxContainer{
+  width: 90vw;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Section2 .container .boxContainer .arrows {
+  height: 40px;
+  width: 100px;
+  color: darkblue;
+  transform: scale(2);
+}
+
+.Section2 .container .boxContainer .box{
+  background-color: white;
+  height: 250px;
+  width: 250px;
+  padding: 10px 20px;
+}
+
+.Section2 .container .boxContainer .box .logoes{
+  height: 70px;
+  width: 70px;
+  margin:20px;
+}
+
+
+.Section2 .container .boxContainer .box h3{
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
+  .Section2 .container {
+    padding: 10px
+  }
+  .Section2 .container .heading {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 0.8rem;
+  }
+  .Section2 .container .boxContainer .box .logoes {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+  }
+  .Section2 .container .toplogo {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 30px;
+  }.Section2 .container .boxContainer .box h3 {
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }.Section2 .container .boxContainer .box p {
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+  }
+  .Section2 .container .boxContainer .box {
+    padding: 0 10px;
+    min-height: 250px;
+  }.Section2 .container .boxContainer .arrows {
+    height: 40px;
+    width: 100px;
+    color: darkblue;
+    transform: scale(1);
+  }.Section2 .container .boxContainer{
+    padding-bottom: 60px;
+  }
+
+}

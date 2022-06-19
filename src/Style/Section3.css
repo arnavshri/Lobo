@@ -1,0 +1,126 @@
+:root {
+  --blue: rgb(15, 159, 159);
+}
+
+
+
+.Section3 .container{
+  padding:40px 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Section3 .left{
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section3 .left img{
+  height: 500px;
+  width: 350px;
+}
+
+.Section3 .right{
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.Section3 .right .heading{
+  padding: 30px;
+  margin: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.Section3 .right .heading h4{
+  font-size: 1.0rem;
+}
+
+.Section3 .right form{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Section3 .inputBoxes {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+.Section3 input {
+  border: 2px solid var(--blue);
+}
+
+.Section3 textarea {
+  border: 2px solid var(--blue);
+  resize: none;
+}
+
+
+.Section3 .formLabel {
+  font-weight: 600;
+}
+
+.Section3 .labelBox {
+  padding-right: 5px;
+  max-width: 300px;
+  margin:10px 0;
+  font-size: 1.2rem;
+}
+
+.Section3 .formInputs {
+  width: 100%;
+  border-radius: 5px;
+  padding: 2px;
+  color: black;
+}
+
+.Section3 .information {
+  padding: 20px;
+  font-size: 1.1rem;
+}
+
+.Section3 .right .btn{
+  background-color: white;
+  border: var(--blue) 2px solid;
+  color:var(--blue);
+  padding:5px 60px;
+  border-radius:30px;
+  align-self: center;
+  font-size: 1.2rem;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.Section3 .footer{
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .Section3 .container {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .Section3 .left{
+    display: none;
+  }
+  .Section3 .right{
+    width: 100%;
+  }
+}
