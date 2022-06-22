@@ -6,7 +6,7 @@ const Section3 = () => {
     <div className='Section3'>
       <div className="container">
         <div className="left">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp24hO3de4RVq7S_PksxlDYQRDstyLNDtMJw&usqp=CAU" alt="img" />
+          <img src="https://s3-alpha-sig.figma.com/img/28df/a033/c2f86abe1de8bee39459788581881c12?Expires=1656892800&Signature=br7S4K89NVJgu693eyORF~2d0lSRvGXuS8kJ3KyLHspRn-cn36u~mFxaVDek4w8YxXPVd-0WHkCsqiD0JwbAmhzJp9FXyrwhKzANbsC8lbV6jPJHByLL0VQZJDz8a360ymC5TxgHVjr8seejhtaQHB59DjwgrEDqqCvlBRd0R3My-EWPFBDIh3PmUZeVfgiYOx-Qrqq6JhweHQOdx69L8ooQPKJnIvGnLP3fTWHEzAIsELrxvWmzZ8WjOak9o1evzemAMeb-S0c9i-6xCGfpM6P2mPFYHzB6iQs2gBzk5PGlH7oGWW9Wrn-zmEEfAwlW-PzqbTNR6JplGCtG6L7gUw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="img" />
           
         </div>
         <div className="right">
