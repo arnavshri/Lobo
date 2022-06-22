@@ -20,7 +20,6 @@
 .Section2 .container::after{
   content: "";
   position: absolute;
-  
   background-image: url(https://s3-alpha-sig.figma.com/img/403b/9003/35c83cb9a015cc37437ecbd4c4228580?Expires=1656892800&Signature=gXB48AFgJclAmzWcBd4HbE5lTe8ynpVMEm3bzodxRoaXScFNY9wEpR6iV1FGHu-FobP3ccC9Gew9T8TttdjiQDCkivPEC1fvpIoECZ-R3kefLmO2Ho7V1VO-f59iFKJX-wuwZiOkRSGosUgkJ97QVW0WznJVgPBMxcLtSIRgUZwfUsbtGIbjaWBlZYwwz1NUfgcm2mmvOpANr-XHEoKnORZ71ckBqmi8-vqRPr6ptW6ajN8aSurSnjMQCqlG00IW~7JS6OrSzl9oIsrFmet79O2Pb76YblZeK-kgHc~YieAqxkEDADQxTzIme8Zkm-tJaU47Xf3h2sEvCZ-OFUmbKw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
   background-repeat: no-repeat;
   background-size: 70vw 100vh;
