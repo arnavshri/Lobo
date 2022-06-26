@@ -1,7 +1,8 @@
 import "./App.css";
-import Section1 from "./Components/Section1";
-import Section3 from "./Components/Section3";
-import Section2 from "./Components/Section2";
+import Section1 from "./Components/Homepage/Section1";
+import Section2 from "./Components/Homepage/Section2";
+import Section3 from "./Components/Homepage/Section3";
+
 
 function App() {
   return (

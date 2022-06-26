@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
-import "../Style/Section3.css"
+import "./Section3.css"
 
 const Section3 = () => {
   const [user, setUser] = useState({ name: "", email: "", message: "" })
