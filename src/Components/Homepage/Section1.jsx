@@ -33,9 +33,9 @@ const Section1 = () => {
           </svg>
         </div>
         <div className="text">
-          <h1>Reading Made Cheap</h1>
+          <h1>Reading Made Affordable</h1>
           <p>Borrow books for reading, finish and return, all at price lesser than buying second hand</p>
-          <button>Learn More</button>
+          <button>Contact Us</button>
         </div>
         < AiOutlineDown className="DownArrow" />
       </div>

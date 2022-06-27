@@ -16,17 +16,16 @@ const Section3 = () => {
 
   return (
     <div className='Section3'>
+      
+      <div className="heading">
+        <h3>To get the booklist</h3>
+        <h4>(kindly fill the form)</h4>
+      </div>
       <div className="container">
         <div className="left">
-          <img src="https://s3-alpha-sig.figma.com/img/28df/a033/c2f86abe1de8bee39459788581881c12?Expires=1656892800&Signature=br7S4K89NVJgu693eyORF~2d0lSRvGXuS8kJ3KyLHspRn-cn36u~mFxaVDek4w8YxXPVd-0WHkCsqiD0JwbAmhzJp9FXyrwhKzANbsC8lbV6jPJHByLL0VQZJDz8a360ymC5TxgHVjr8seejhtaQHB59DjwgrEDqqCvlBRd0R3My-EWPFBDIh3PmUZeVfgiYOx-Qrqq6JhweHQOdx69L8ooQPKJnIvGnLP3fTWHEzAIsELrxvWmzZ8WjOak9o1evzemAMeb-S0c9i-6xCGfpM6P2mPFYHzB6iQs2gBzk5PGlH7oGWW9Wrn-zmEEfAwlW-PzqbTNR6JplGCtG6L7gUw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="img" />
 
         </div>
         <div className="right">
-          <div className="heading">
-            <h3>To get the booklist</h3>
-            <h4>(kindly fill the form)</h4>
-          </div>
-          <div>
             <div className="inputBoxes">
               <div className='labelBox'>
                 <label className='formLabel'>Full Name:</label>
@@ -43,11 +42,11 @@ const Section3 = () => {
               <div className='labelBox'>
                 <label className='formLabel'>Message (Optional)</label>
               </div>
-              <textarea cols="30" rows="4" onChange={onchange} name='message' className='formInputs meggage' ></textarea>
+              <textarea cols="30" rows="6" onChange={onchange} name='message' className='formInputs meggage' ></textarea>
             </div>
             <button className='btn' onClick={handleSubmit}> Submit</button>
           </div>
-        </div>
+        
       </div>
       <div className="footer">
         © 2021-2022 Lobo. All Rights Reserved.

@@ -1,17 +1,17 @@
 
 
 .Section1 .container {
-  background-size: 100vw 100vh;
-  /* background-image: url(https://img.freepik.com/free-photo/front-view-pile-books-with-copy-space_23-2148255858.jpg?w=2000); */
+  background-size: contain;
+  background-color: rgba(6, 11, 34, 1);
   background-repeat: no-repeat;
-  background-image: url(https://s3-alpha-sig.figma.com/img/e8f1/e4f6/ce6a5e1a8683d6acdd9ecf49c8526c15?Expires=1656892800&Signature=O0c-yuag-NXgppFiJNh9XJgByBa4jOff3qIkD6esb12~r59IAEtm43C50E2C5exA-4NxgxUfnktEHF22OqEbeS7GtqlJ~fbamokCdU6uS5c5OwWSm2Cl8iIzNtgRyNVsM9gvMg51lgifsG15fYRavN-c8JroHmqv8HokYHojXdNkOD5~HPyxqE2xbipU-I9Q~mQQtjTcP9jgQR~J599-QcIK9yiZE~3ILA4rpDW7OIu8z11zfyQUr7bn1Y6U0pakrnTv1nnQKphDB-aFf3ucgzioQSf8vWNwskzpzsGg6ZuLBxSAp6k~pRSMKB~Ekyt06PGJG34qslArQIDcpjo1jw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-image: url(../../Assets/Homepage/homepage-book.png);
+  background-position:bottom;
   height: 100vh;
-  width: 100vw;
-  padding:30px;
+  /* width: 100vw; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content:flex-start;
   text-align: center;
 }
 
@@ -32,19 +32,25 @@
   color:white;
   margin-bottom: 25px;
   cursor: pointer;
+  width: 100px;
+  /* display: none; */
 }
 
+.Section1 .container .text{
+  width: 50%;
+  margin:0 auto;
+}
 
 .Section1 .container .text h1 {
-  color: white;
-  font-size: 2.8rem;
+  color: rgba(255, 173, 20, 1);
+  font-size: 2.5rem;
   font-weight: 900;
 }
 
 .Section1 .container .text p {
   color: white;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 2.3rem;
+  padding: 20px;
 }
 
 .Section1 .container .text button{
@@ -62,6 +68,31 @@
 
 @media only screen and (max-width: 480px) {
   .Section1 .container {
-    padding:10px
+    padding:0px;
+    background-position:0% 75%;
+  }
+  .Section1 .container .text {
+    width: 90%;
+  }
+  .Section1 .container .text h1 {
+    font-size: 2.4rem;
+    letter-spacing: 5px;
+  }
+  .Section1 .container .text p {
+    font-size: 1.3rem;
+    padding:0;
+    padding-top:20px;
+  }
+  .Section1 .container .text button {
+    margin-top: 210px;
+  }.Section1 .container .DownArrow {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .Section1 .container .text h1 {
+    font-size: 2.2rem;
+    letter-spacing: 5px;
   }
 }

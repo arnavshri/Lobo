@@ -1,30 +1,38 @@
 :root {
   --blue: rgb(15, 159, 159);
+  --orange:rgba(255, 173, 20, 1);
+}
+
+.Section3{
+  background-color: rgba(6, 11, 34, 1);
 }
 
 
-
 .Section3 .container{
-  padding:40px 20px;
+  padding:30px 20px;
   display: flex;
   flex-direction: row;
 }
 
 .Section3 .left{
-  width: 45%;
+  width: 55%;
+  background-size: contain;
+  background-color: rgba(6, 11, 34, 1);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-image: url(../../Assets/Homepage/contactus-img.png);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .Section3 .left img{
-  
   height: 500px;
   width: 350px;
 }
 
 .Section3 .right{
-  width: 55%;
+  width: 45%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,15 +40,18 @@
 }
 
 
-.Section3 .right .heading{
+.Section3 .heading{
+  color: rgba(255, 173, 20, 1);
   padding-top: 30px;
   margin-top: 20px;
-  font-size: 1.5rem;
+  font-size: 2.4rem;
   text-align: center;
+  letter-spacing: 5px;
 }
 
-.Section3 .right .heading h4{
-  font-size: 1.0rem;
+.Section3 .heading h4{
+  color:white;
+  font-size: 1.3rem;
 }
 
 .Section3 .right form{
@@ -51,20 +62,20 @@
 }
 
 .Section3 .inputBoxes {
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items:flex-start;
   flex-direction: column;
-  padding: 20px 10px;
+  padding-bottom: 30px;
 }
 
 .Section3 input {
-  border: 2px solid var(--blue);
+  border: 2px solid var(--orange);
 }
 
 .Section3 textarea {
-  border: 2px solid var(--blue);
+  border: 2px solid var(--orange);
   resize: none;
 }
 
@@ -74,6 +85,7 @@
 }
 
 .Section3 .labelBox {
+  color: white;
   padding-right: 5px;
   max-width: 300px;
   margin:10px 0;
@@ -83,7 +95,7 @@
 .Section3 .formInputs {
   width: 100%;
   border-radius: 5px;
-  padding: 2px;
+  padding: 5px;
   color: black;
 }
 
@@ -93,9 +105,9 @@
 }
 
 .Section3 .right .btn{
-  background-color: white;
-  border: var(--blue) 2px solid;
-  color:var(--blue);
+  background-color: rgba(6, 11, 34, 1);
+  border: var(--orange) 2px solid;
+  color:var(--orange);
   padding:5px 60px;
   border-radius:30px;
   align-self: center;
@@ -107,21 +119,35 @@
 .Section3 .footer{
   text-align: center;
   color: white;
-  background-color: black;
   padding: 5px;
   font-size: 1.3rem;
 }
 
 @media only screen and (max-width: 480px) {
   .Section3 .container {
-    padding: 40px 20px;
+    padding: 30px 20px 10px 20px;
     display: flex;
     flex-direction: column;
+  }
+  .Section3 .heading {
+    letter-spacing: 3px;
+  }
+  .Section3 .heading h4 {
+    letter-spacing: 4px;
   }
   .Section3 .left{
     display: none;
   }
   .Section3 .right{
     width: 100%;
+  }
+  .Section3 .footer {
+    font-size: 1rem;
+  }
+  .Section3 .formLabel{
+    font-weight: 100;
+  }
+  .Section3 .labelBox {
+    font-size: 1rem;
   }
 }
