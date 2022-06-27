@@ -34,6 +34,7 @@ const Section1 = () => {
         </div>
         <div className="text">
           <h1>Reading Made Affordable</h1>
+          
           <p>Borrow books for reading, finish and return, all at price lesser than buying second hand</p>
           <button>Contact Us</button>
         </div>
