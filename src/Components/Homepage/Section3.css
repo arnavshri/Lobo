@@ -150,4 +150,12 @@
   .Section3 .labelBox {
     font-size: 1rem;
   }
+  .Section3 .heading {
+    letter-spacing: 5px;
+    font-size: 1.0rem;
+  }
+  .Section3 .heading h4{
+    letter-spacing: 3px;
+    font-size: 1.0rem;
+  }
 }
