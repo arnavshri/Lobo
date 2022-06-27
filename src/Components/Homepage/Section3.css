@@ -96,8 +96,9 @@
   width: 100%;
   border-radius: 5px;
   padding: 5px;
-  color: black;
+  color: #fff;
   background-color: rgba(6, 11, 34, 1);
+  outline: none;
 }
 
 .Section3 .information {
