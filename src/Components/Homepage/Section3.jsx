@@ -12,6 +12,8 @@ const Section3 = () => {
   const handleSubmit = async () => {
     const { name, email, message } = user
     const res = await axios.post('https://lobo-backend.herokuapp.com/contact', user);
+    setUser({ name: " ", email: " ", message: " " })
+    alert("We have Registered Your Message.")
   }
 
   return (
@@ -30,19 +32,19 @@ const Section3 = () => {
               <div className='labelBox'>
                 <label className='formLabel'>Full Name:</label>
               </div>
-              <input className='formInputs' onChange={onchange} name='name' type="text" minLength={3} required />
+              <input className='formInputs' onChange={onchange}  value={user.name} name='name' type="text" minLength={3} required />
             </div>
             <div className="inputBoxes">
               <div className='labelBox'>
                 <label className='formLabel' minlength="4">Email Id:</label>
               </div>
-              <input className='formInputs' onChange={onchange} name='email' type="email" required />
+              <input className='formInputs' onChange={onchange} value={user.email}  name='email' type="email" required />
             </div>
             <div className="inputBoxes">
               <div className='labelBox'>
                 <label className='formLabel'>Message (Optional)</label>
-              </div>
-              <textarea cols="30" rows="6" onChange={onchange} name='message' className='formInputs meggage' ></textarea>
+              </div> 
+              <textarea cols="30" rows="6" onChange={onchange} value={user.message}  name='message' className='formInputs meggage' ></textarea>
             </div>
             <button className='btn' onClick={handleSubmit}> Submit</button>
           </div>
