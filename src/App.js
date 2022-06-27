@@ -4,7 +4,7 @@ import Section3 from "./Components/Homepage/Section3";
 
 function App() {
   return (
-    <div className="App">
+    <div className="Homepage">
       <Section1 />
       {/* <Section2 /> */}
       <Section3 />
