@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useState } from 'react'
 import "./Section3.css"
 
-const Section3 = () => {
+const Section3 = (props) => {
   const [user, setUser] = useState({ name: "", email: "", message: "" })
   const [isSubmit, setIsSubmit] = useState('Submit')
 
@@ -12,17 +12,19 @@ const Section3 = () => {
 
   const handleSubmit = async () => {
     setIsSubmit('Submitting')
-    const { name, email, message } = user
-    const res = await axios.post('https://lobo-backend.herokuapp.com/contact', user);
+    await axios.post('https://lobo-backend.herokuapp.com/contact', user);
     setUser({ name: " ", email: " ", message: " " })
     // alert("We have Registered Your Message.")
     setIsSubmit('Submitted')
+    setInterval(()=>{
+      setIsSubmit('Submit')
+    },5000)
   }
 
   return (
     <div className='Section3'>
 
-      <div className="heading">
+      <div className="heading" ref={props.myRef} >
         <h3>To get the booklist</h3>
         <h4>(kindly fill the form)</h4>
       </div>

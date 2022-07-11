@@ -2,7 +2,7 @@ import React from 'react'
 import "./Section1.css"
 import { AiOutlineDown } from 'react-icons/ai';
 
-const Section1 = () => {
+const Section1 = (props) => {
   return (
     <div className='Section1'>
       <div className="container">
@@ -34,9 +34,9 @@ const Section1 = () => {
         </div>
         <div className="text">
           <h1>Reading Made Affordable</h1>
-          
+
           <p>Borrow books for reading, finish and return, all at price lesser than buying second hand</p>
-          <button>Contact Us</button>
+          <button onClick={props.executeScroll}>Contact Us</button>
         </div>
         < AiOutlineDown className="DownArrow" />
       </div>
