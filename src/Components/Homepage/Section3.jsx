@@ -39,13 +39,13 @@ const Section3 = () => {
           </div>
           <div className="inputBoxes">
             <div className='labelBox'>
-              <label className='formLabel' minlength="4">Email Id:</label>
+              <label className='formLabel' minlength="4">Email ID:</label>
             </div>
             <input className='formInputs' onChange={onchange} value={user.email} name='email' type="email" required />
           </div>
           <div className="inputBoxes">
             <div className='labelBox'>
-              <label className='formLabel'>Message (Optional)</label>
+              <label className='formLabel'>Message (Optional):</label>
             </div>
             <textarea cols="30" rows="6" onChange={onchange} value={user.message} name='message' className='formInputs meggage' ></textarea>
           </div>
